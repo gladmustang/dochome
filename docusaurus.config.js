@@ -10,7 +10,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://gladmustang.github.io/',
   baseUrl: '/dochome/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'gladmustang', // Usually your GitHub org/user name.
@@ -46,12 +46,12 @@ const config = {
         title: 'Jason\'s Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: '/img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'docmain',
             position: 'left',
             label: 'Docs',
           },
